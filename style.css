@@ -89,6 +89,9 @@ button {
     .form-wrapper{
         flex-direction: column;
     }
+    h1{
+        font-size: 40px;
+    }
 }
 
 /* Page 2 */
@@ -98,4 +101,5 @@ h1 {
     font-family: "Poppins", sans-serif;
     color: #fff;
 }
+
 
