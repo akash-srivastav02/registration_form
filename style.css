@@ -56,6 +56,10 @@ i {
     color: blueviolet;
 }
 
+i:hover {
+    cursor: pointer;
+}
+
 input, select {
     padding: 10px;
     width: 100%;
@@ -86,3 +90,12 @@ button {
         flex-direction: column;
     }
 }
+
+/* Page 2 */
+
+h1 {
+    font-size: 80px;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+}
+
