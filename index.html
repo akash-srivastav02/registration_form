@@ -17,18 +17,18 @@
                 <p>Registration Form</p>
             
             <div class="form-wrapper">
-                <input type="text" placeholder="First name">
-                <input type="text" placeholder="Last name">
+                <input type="text" placeholder="First name" required>
+                <input type="text" placeholder="Last name" required>
             </div>
             <div class="form-wrapper">
-                <input type="text" placeholder="Username">
+                <input type="text" placeholder="Username" required>
                 <i class="material-symbols-outlined">person</i>
             </div>
             <div class="form-wrapper">
-                <input type="email" placeholder="Email">
+                <input type="email" placeholder="Email" required>
                 <i class="material-symbols-outlined">mail</i>
             </div>
-            <div class="form-wrapper">
+            <div class="form-wrapper" required>
                 <select>
                     <option value="">Gender</option>
                     <option value="">MALE</option>
@@ -37,12 +37,12 @@
                 <i class="material-symbols-outlined">expand_more</i>
             </div>
             <div class="form-wrapper">
-                <input type="password" placeholder="password">
-                <i class="material-symbols-outlined">lock</i>
+                <input type="password" placeholder="password" id="pass1" required>
+                <i class="material-symbols-outlined" id="show1">visibility</i>
             </div>
             <div class="form-wrapper">
-                <input type="password" placeholder="Confirm password">
-                <i class="material-symbols-outlined">lock</i>
+                <input type="password" placeholder="Confirm password" id="pass2" required>
+                <i class="material-symbols-outlined" id="show2">visibility</i>
             </div>
                 <button>Registration</button>
         </form>
